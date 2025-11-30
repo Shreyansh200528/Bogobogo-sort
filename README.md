@@ -18,12 +18,12 @@ Implemented BogoBogo sort in C++ to explore its sorting time on vectors of vario
 |       6        |     23626.33       |
 |       7        |        DNF         |
 
-I ran the code for 72 hours on my machine but it did not finish, I estimate it to take about 81 days to finish according to below information.  
-(The results above are averages over 100 runs, the actual numbers don't mean a lot as a lot of factors affect the result like the random chances and luck, as well as the temperature of the air which makes the CPU perform better or worse, but what does matter is the order of magnitude of these numbers, microseconds for size 4, milliseconds for 5, a few seconds for 6 and a few months for size 7.)
+I ran the code for 72 hours on my machine but it did not finish, I estimate it to take about 400 years to finish according to below information.  
+(The results above are averages over 100 runs, the actual numbers don't mean a lot as a lot of factors affect the result like the random chances and luck, as well as the temperature of the air which makes the CPU perform better or worse, but what does matter is the order of magnitude of these numbers, microseconds for size 4, milliseconds for 5, a few seconds for 6 and a few centuries for size 7.)
 
 # Reference
 The above rules are taken from this website on the topic  
 https://www.dangermouse.net/esoteric/bogobogosort.html  
 As calculated by Nathan Collins the time complexity is about O(N!^(N-K)).  
-(Assuming K = 1 I calculated estimated time for size 7 to be around 81 days.)  
+(Assuming K = 1 I calculated estimated time for size 7 to be around 400 years.)  
 Do check out the link above for more interesting information on BogoBogo Sort.
